@@ -1,0 +1,49 @@
+*{
+ margin: 0;
+ padding:0;
+}
+
+#nav{
+ height: 60px;
+}
+#nav ul{
+ list-style: none;
+}
+
+#nav > ul > li{
+ float: left;
+ width: 256px;
+ position: relative;
+}
+
+#nav li a{
+ display: block;
+ background: #00BFFF;
+ border: 2px solid #0000CD;
+ color: #000000;
+ padding: 10px;
+ text-align: center;
+ text-decoration: none;
+}
+#nav li a:hover{
+ background: #87CEFA;
+}
+
+#nav li .second{
+ display: none;
+ position: absolute;
+ top: 100%;
+}
+
+#nav li:hover .second{
+ display: block;
+}
+
+#nav li li{
+ width: 180px;
+}
+#lol{
+padding: 0 30px;
+background-color: white;
+width: 85%;
+}
